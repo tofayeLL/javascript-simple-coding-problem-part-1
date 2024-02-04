@@ -40,7 +40,7 @@ console.log('Duplicate Numbers:', result); */
 /* ------practice task three--- */
 /* question: Write a function to count the number of vowels in a string. */
 
-function  countVowels(str){
+/* function  countVowels(str){
   let count = 0;
   let vowels = 'aeiouAEIOU';
   for(let i = 0; i < str.length; i++){
@@ -56,10 +56,13 @@ function  countVowels(str){
 let sentence = 'i am a Serious Learner';
 let vowels = countVowels(sentence);
 console.log('Total vowels in the string or sentences :', vowels);
-
+ */
 
 
 
 /* ---practice task five----- */
 /* question: Generate a random number between 10 to 20 */
+
+let randomNumber = Math.round(Math.random()*10 + 10);
+console.log(randomNumber);
 

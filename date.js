@@ -1,11 +1,11 @@
 
 const today = Date();
-const date = new Date(2067-9-9);
+const date = new Date('2067-9-9');
 console.log(date);
 console.log(date.getDate());
 console.log(date.getDay());
 
-const specificDate = new Date(2090, 3, 20)
+const specificDate = new Date('2090, 3, 20')
 console.log(specificDate);
 // set new month
 specificDate.setMonth(10);

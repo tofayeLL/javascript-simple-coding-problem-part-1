@@ -60,9 +60,32 @@ console.log('Total vowels in the string or sentences :', vowels);
 
 
 
+
+
+/* -----practice task four------- */
+/* question: Write a function to find the longest word in a given string. */
+
+function getLongestWord(str){
+  let words = str.split(' ');
+  let longestWord = '';
+  for(let word of words ){
+    if(word.length > longestWord.length){
+      longestWord = word;
+    }
+  }
+  return longestWord;
+}
+
+let sentence = 'I am learning Programming to become a programmer';
+let longestWord = getLongestWord(sentence);
+console.log('Longest word from the sentence is:', longestWord);
+
+
+
+
 /* ---practice task five----- */
 /* question: Generate a random number between 10 to 20 */
 
-let randomNumber = Math.round(Math.random()*10 + 10);
+/* let randomNumber = Math.round(Math.random()*10 + 10);
 console.log(randomNumber);
-
+ */
